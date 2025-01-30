@@ -1,7 +1,7 @@
-export default function LeftPage() {
+export default function Home() {
   return (
-    <div className="flex items-end justify-center h-screen pb-10">
-      <p className="text-lg">LEFT</p>
+    <div className="flex items-end justify-center h-[100svh] overflow-hidden">
+      <p className="mb-10 text-xl">LEFT</p>
     </div>
   );
 }
